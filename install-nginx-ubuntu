@@ -1,7 +1,7 @@
 ---
 - name: Install Nginx
   hosts: testserver
-  become: root
+  become: true
 
   tasks:
     - name: Install Nginx
